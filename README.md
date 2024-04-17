@@ -27,9 +27,7 @@ git config --global user.name "Your Name"
 ```
 git config --global user.email "your@email.com"
 ```
-```
 Replace `"Your Name"` and `"your@email.com"` with your actual name and email address.
-```
 
 
 ### 2. Create a New Repository on https://github.com
@@ -113,7 +111,7 @@ git push -u origin main
 
 #### Create a file named index.txt in your local repository
 ```bash
-echo Hello, GitHub! > index.txt
+echo "Hello, GitHub!" > index.txt
 ```
 
 #### Add the file to the staging area
@@ -138,31 +136,36 @@ git push -u origin main
 Follow the same pattern for both macOS and Windows:
 ```
 # Change 1
-echo "Test written 1" >> index.txt  # For macOS, use: printf "Test written 1\n" >> index.txt
+For window: echo "Test written 1" > index.txt
+For macOS: printf "Test written 1" > index.txt
 git add index.txt
 git commit -m "Second Commit"
 git push
 
 # Change 2
-echo "Test written 2" >> index.txt  # For macOS, use: printf "Test written 2\n" >> index.txt
+For window: echo "Test written 2" > index.txt
+For macOS: printf "Test written 2" > index.txt
 git add index.txt
 git commit -m "Third Commit"
 git push
 
 # Change 3
-echo "Test written 3" >> index.txt  # For macOS, use: printf "Test written 3\n" >> index.txt
+For window: echo "Test written 3" > index.txt
+For macOS: printf "Test written 3" > index.txt
 git add index.txt
 git commit -m "Fourth Commit"
 git push
 
 # Change 4
-echo "Test written 4" >> index.txt  # For macOS, use: printf "Test written 4\n" >> index.txt
+For window: echo "Test written 4" > index.txt
+For macOS: printf "Test written 4" > index.txt
 git add index.txt
 git commit -m "Fifth Commit"
 git push
 
 # Change 5
-echo "Test written 5" >> index.txt  # For macOS, use: printf "Test written 5\n" >> index.txt
+For window: echo "Test written 5" > index.txt
+For macOS: printf "Test written 5" > index.txt
 git add index.txt
 git commit -m "Sixth Commit"
 git push
@@ -171,8 +174,6 @@ git push
 ### 5. Create and Merge Branch
 
 Follow the same pattern for both macOS and Windows:
-
-```
 #### Create a new branch named 'Branch_1' from the main/master branch
 ```
 git branch Branch_1
@@ -195,6 +196,7 @@ git add index.txt
 ```
 ```
 git commit -m "Branch First Commit"
+```
 ```
 git push origin Branch_1
 ```
