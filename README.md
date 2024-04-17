@@ -173,7 +173,7 @@ That's it! You've successfully set up a new Git repository, created and modified
 
 Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
-You can copy and paste this content into a new file named `README.md` in your repository, and it will be displayed beautifully on GitHub. Additionally, you can customize the content according to your specific needs or project requirements.
