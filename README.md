@@ -184,10 +184,12 @@ git checkout Branch_1
 ```
 
 #### Modify index.txt in this branch
+
+### For Window, use:
 ```
 echo "New branch test written 1" >> index.txt
 ```
-### For macOS, use:
+### For MacOS, use:
 ```
 printf "New branch test written 1\n" >> index.txt
 ```
